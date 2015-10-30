@@ -1,5 +1,5 @@
 import glob, os
-os.chdir("./imgs")
+os.chdir("./images")
 filesname = ""
 for file in glob.glob("*.png"):
     filesname += '"' + str(file) + '",' 
